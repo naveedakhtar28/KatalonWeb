@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="55" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="55" timestamp="2018-10-10 17:45:08" hostname="Naveed - 192.168.10.69" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/user/Katalon Studio/WebTesting/Reports/Login/20181010_174501"/>
+         <property name="logFiles" value="/Users/user/Katalon Studio/WebTesting/Reports/Login/20181010_174501/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Naveed - 192.168.10.69"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.69"/>
+         <property name="sessionId" value="e6b64e376e3d2f794c2c93e7268817e7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-10 17:45:10 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-10 17:45:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-10-10 17:45:10 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-10-10 17:45:10 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-10-10 17:45:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-10 17:45:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-10 17:45:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-10 17:45:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-10 17:45:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-10 17:45:38 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-10 17:45:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-10 17:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-10 17:45:41 - [TEST_STEP][PASSED] - setText: Text 'naveed.akhtar@psiog.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-10 17:45:42 - [MESSAGE][PASSED] - Text 'naveed.akhtar@psiog.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-10 17:45:42 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-10 17:45:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-10 17:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-10-10 17:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MyAddress" classname="Test Cases/MyAddress" status="PASSED">
+         <system-out><![CDATA[2018-10-10 17:45:45 - [TEST_CASE][PASSED] - Test Cases/MyAddress: Test Cases/MyAddress
+
+2018-10-10 17:45:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-10-10 17:45:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-10-10 17:45:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-10-10 17:45:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/span_My addresses' is clicked on
+
+2018-10-10 17:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/span_My addresses' is clicked on
+
+2018-10-10 17:45:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Addresses - My Store/i_Add a new address_icon-chevr' is clicked on
+
+2018-10-10 17:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Addresses - My Store/i_Add a new address_icon-chevr' is clicked on
+
+2018-10-10 17:45:48 - [TEST_STEP][PASSED] - setText: Text 'Psiog' is set on object 'Object Repository/Page_Address - My Store/input_Company_company'
+
+2018-10-10 17:45:48 - [MESSAGE][PASSED] - Text 'Psiog' is set on object 'Object Repository/Page_Address - My Store/input_Company_company'
+
+2018-10-10 17:45:48 - [TEST_STEP][PASSED] - setText: Text 'No 24 Hussain Maistry Street' is set on object 'Object Repository/Page_Address - My Store/input__address1'
+
+2018-10-10 17:45:49 - [MESSAGE][PASSED] - Text 'No 24 Hussain Maistry Street' is set on object 'Object Repository/Page_Address - My Store/input__address1'
+
+2018-10-10 17:45:49 - [TEST_STEP][PASSED] - setText: Text 'Chennai' is set on object 'Object Repository/Page_Address - My Store/input__city'
+
+2018-10-10 17:45:49 - [MESSAGE][PASSED] - Text 'Chennai' is set on object 'Object Repository/Page_Address - My Store/input__city'
+
+2018-10-10 17:45:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '39' are selected in object 'Object Repository/Page_Address - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-10 17:45:51 - [MESSAGE][PASSED] - All options with value '39' are selected in object 'Object Repository/Page_Address - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-10 17:45:51 - [TEST_STEP][PASSED] - setText: Text '10001' is set on object 'Object Repository/Page_Address - My Store/input__postcode'
+
+2018-10-10 17:45:51 - [MESSAGE][PASSED] - Text '10001' is set on object 'Object Repository/Page_Address - My Store/input__postcode'
+
+2018-10-10 17:45:51 - [TEST_STEP][PASSED] - setText: Text '9962321440' is set on object 'Object Repository/Page_Address - My Store/input__phone'
+
+2018-10-10 17:45:52 - [MESSAGE][PASSED] - Text '9962321440' is set on object 'Object Repository/Page_Address - My Store/input__phone'
+
+2018-10-10 17:45:52 - [TEST_STEP][PASSED] - setText: Text '9962321440' is set on object 'Object Repository/Page_Address - My Store/input__phone_mobile'
+
+2018-10-10 17:45:52 - [MESSAGE][PASSED] - Text '9962321440' is set on object 'Object Repository/Page_Address - My Store/input__phone_mobile'
+
+2018-10-10 17:45:52 - [TEST_STEP][PASSED] - setText: Text 'My address US' is set on object 'Object Repository/Page_Address - My Store/input__alias'
+
+2018-10-10 17:45:53 - [MESSAGE][PASSED] - Text 'My address US' is set on object 'Object Repository/Page_Address - My Store/input__alias'
+
+2018-10-10 17:45:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Address - My Store/span_Save' is clicked on
+
+2018-10-10 17:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Address - My Store/span_Save' is clicked on
+
+2018-10-10 17:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Addresses - My Store/span_Delete' is clicked on
+
+2018-10-10 17:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Addresses - My Store/span_Delete' is clicked on
+
+2018-10-10 17:45:55 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-10 17:45:55 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-10 17:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Identity - My Store/span_Back to your account' is clicked on
+
+2018-10-10 17:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Identity - My Store/span_Back to your account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Personal Information" classname="Test Cases/Personal Information" status="PASSED">
+         <system-out><![CDATA[2018-10-10 17:45:58 - [TEST_CASE][PASSED] - Test Cases/Personal Information: Test Cases/Personal Information
+
+2018-10-10 17:45:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-10-10 17:45:58 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-10-10 17:45:58 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-10-10 17:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/span_My personal information' is clicked on
+
+2018-10-10 17:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/span_My personal information' is clicked on
+
+2018-10-10 17:45:59 - [TEST_STEP][PASSED] - setText: Text 'Akhtar' is set on object 'Object Repository/Page_Identity - My Store/input_Last name_lastname'
+
+2018-10-10 17:46:00 - [MESSAGE][PASSED] - Text 'Akhtar' is set on object 'Object Repository/Page_Identity - My Store/input_Last name_lastname'
+
+2018-10-10 17:46:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Identity - My Store/input_Current Password_old_pas'
+
+2018-10-10 17:46:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Identity - My Store/input_Current Password_old_pas'
+
+2018-10-10 17:46:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Identity - My Store/input_New Password_passwd'
+
+2018-10-10 17:46:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Identity - My Store/input_New Password_passwd'
+
+2018-10-10 17:46:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Identity - My Store/input_Confirmation_confirmatio'
+
+2018-10-10 17:46:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Identity - My Store/input_Confirmation_confirmatio'
+
+2018-10-10 17:46:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Identity - My Store/span_Save' is clicked on
+
+2018-10-10 17:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Identity - My Store/span_Save' is clicked on
+
+2018-10-10 17:46:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Identity - My Store/p_Your personal information ha' are matched.
+
+2018-10-10 17:46:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Identity - My Store/p_Your personal information ha' are matched.
+
+2018-10-10 17:46:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Identity - My Store/span_Back to your account' is clicked on
+
+2018-10-10 17:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Identity - My Store/span_Back to your account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-10 17:45:08 - [TEST_SUITE][PASSED] - Login: Test Cases/Personal Information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

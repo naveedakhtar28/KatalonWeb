@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 69.0.3497.100,,2018-10-10 17:40:02,2018-10-10 17:40:26,23.630s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 69.0.3497.100,,2018-10-10 17:40:04,2018-10-10 17:40:25,20.641s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-10-10 17:40:04,2018-10-10 17:40:04,0.242s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-10 17:40:05,2018-10-10 17:40:10,5.141s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-10 17:40:10,2018-10-10 17:40:10,0.249s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-10 17:40:10,2018-10-10 17:40:20,9.348s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-10 17:40:20,2018-10-10 17:40:22,2.173s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-10 17:40:22,2018-10-10 17:40:22,0.528s,PASSED
+setEncryptedText,Chrome 69.0.3497.100,,2018-10-10 17:40:22,2018-10-10 17:40:23,0.527s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-10 17:40:23,2018-10-10 17:40:24,1.759s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-10-10 17:40:24,2018-10-10 17:40:25,0.189s,PASSED
+,,,,,,
+Test Cases/MyAddress,Chrome 69.0.3497.100,,2018-10-10 17:40:25,2018-10-10 17:40:25,0.613s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-10-10 17:40:25,2018-10-10 17:40:25,0.003s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-10 17:40:25,2018-10-10 17:40:25,0.049s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-10-10 17:40:25,2018-10-10 17:40:25,0.041s,PASSED
+,,,,,,
+Test Cases/Personal Information,Chrome 69.0.3497.100,,2018-10-10 17:40:25,2018-10-10 17:40:26,0.520s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-10-10 17:40:25,2018-10-10 17:40:25,0.032s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-10 17:40:26,2018-10-10 17:40:26,0.145s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-10-10 17:40:26,2018-10-10 17:40:26,0.006s,PASSED

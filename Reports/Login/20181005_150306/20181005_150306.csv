@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Firefox 62.0,,2018-10-05 15:03:08,2018-10-05 15:03:28,19.845s,FAILED
+,,,,,,
+Test Cases/SampleTest,Firefox 62.0,,2018-10-05 15:03:09,2018-10-05 15:03:28,19.152s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 62.0,,2018-10-05 15:03:09,2018-10-05 15:03:09,0.063s,PASSED
+openBrowser,Firefox 62.0,,2018-10-05 15:03:09,2018-10-05 15:03:19,9.989s,PASSED
+maximizeWindow,Firefox 62.0,,2018-10-05 15:03:19,2018-10-05 15:03:20,0.468s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-05 15:03:20,2018-10-05 15:03:25,5.640s,PASSED
+verifyElementText,Firefox 62.0,,2018-10-05 15:03:25,2018-10-05 15:03:25,0.123s,PASSED
+click,Firefox 62.0,,2018-10-05 15:03:25,2018-10-05 15:03:28,2.095s,PASSED
+verifyElementText,Firefox 62.0,,2018-10-05 15:03:28,2018-10-05 15:03:28,0.267s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 62.0,,2018-10-05 15:03:28,2018-10-05 15:03:28,0.274s,PASSED

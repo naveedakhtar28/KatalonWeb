@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="15" timestamp="2018-09-27 12:38:57" hostname="Naveed - 192.168.10.65" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/user/Katalon Studio/WebTesting/Reports/Login/20180927_123855"/>
+         <property name="logFiles" value="/Users/user/Katalon Studio/WebTesting/Reports/Login/20180927_123855/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Naveed - 192.168.10.65"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.10.65"/>
+         <property name="sessionId" value="fcd456e1c87f27e08893ba858e061268"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SampleTest" classname="Test Cases/SampleTest" status="PASSED">
+         <system-out><![CDATA[2018-09-27 12:38:58 - [TEST_CASE][PASSED] - Test Cases/SampleTest: Test Cases/SampleTest
+
+2018-09-27 12:38:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-27 12:39:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-27 12:39:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-09-27 12:39:07 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-09-27 12:39:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AutomationPractice/Page_My Store/a_Sign in' is clicked on
+
+2018-09-27 12:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AutomationPractice/Page_My Store/a_Sign in' is clicked on
+
+2018-09-27 12:39:09 - [TEST_STEP][PASSED] - setText: Text 'naveed.akhtar@psiog.com' is set on object 'Object Repository/AutomationPractice/Page_Login - My Store/input_Email address_email'
+
+2018-09-27 12:39:09 - [MESSAGE][PASSED] - Text 'naveed.akhtar@psiog.com' is set on object 'Object Repository/AutomationPractice/Page_Login - My Store/input_Email address_email'
+
+2018-09-27 12:39:09 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AutomationPractice/Page_Login - My Store/input_Password_passwd'
+
+2018-09-27 12:39:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AutomationPractice/Page_Login - My Store/input_Password_passwd'
+
+2018-09-27 12:39:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AutomationPractice/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-09-27 12:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AutomationPractice/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-09-27 12:39:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AutomationPractice/Page_My account - My Store/span_My addresses' is clicked on
+
+2018-09-27 12:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AutomationPractice/Page_My account - My Store/span_My addresses' is clicked on
+
+2018-09-27 12:39:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-27 12:39:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-27 12:38:57 - [TEST_SUITE][PASSED] - Login: Test Cases/SampleTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
